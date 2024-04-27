@@ -2,7 +2,7 @@
 
 ## Description
 
-The intent behind this project is to download Tenable IO Vulnerability reports without exporting each report manually from Tenable IO findings page. 
+The goal of this project is to download vulnerability reports from Tenable IO without having to manually export each one from the findings page.
 - Currently only below headers are captured in the downloaded report:
 	- `asset details  = agent_uuid, hostname, ipv4, operating_system`
 	- `plugin details  = description, cve, id, name, solution, synopsis, see_also, exploit_available, has_patch`
@@ -13,7 +13,7 @@ The intent behind this project is to download Tenable IO Vulnerability reports w
 
 ## Installation
 
-- Generate API keys from Tenable IO and add them in `src/.env` file.
+- ![Generate API keys](https://docs.tenable.com/vulnerability-management/Content/Settings/my-account/GenerateAPIKey.htm) from Tenable IO and add them in `src/.env` file. 
 - Clone the repository: `git clone https://github.com/Mrd0zz/tenable-report-downloader.git`
 - Install required python3 modules: `pip3 install -r requirements.txt`
 
