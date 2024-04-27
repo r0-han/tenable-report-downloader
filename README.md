@@ -11,3 +11,4 @@ The intent behind this project is to download Tenable IO Vulnerability reports w
 - Vulnerabilities that have recasted/accepted state are not captured in the report.
 
 ## Usage
+![Help menu](image/help.png)
