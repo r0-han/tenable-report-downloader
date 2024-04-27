@@ -19,3 +19,22 @@ The intent behind this project is to download Tenable IO Vulnerability reports w
 
 ## Usage
 ![Help menu](image/help.png)
+
+- List tags and corresponding tag values
+	- `python3 main.py --list`
+
+- Simple report download for any tag:value
+	- `python3 main.py --tag <TAG_NAME> --value <TAG_VALUE> --sev critical` 
+
+- Export report in slxs format
+	- `python3 main.py --tag <TAG_NAME> --value <TAG_VALUE> --sev critical --export xlsx`
+
+- Specify download directory for the reports
+	- `python3 main.py --tag <TAG_NAME> --value <TAG_VALUE> --sev critical --dir directory_name`
+
+- Download report for all tag:value pairs 
+	- `python3 main.py --all`
+
+- Exclude any tag:value or a single tag  
+	- `python3 main.py --all --exclude 'tag=<TAG_NAME>, value=<TAG_VALUE>'`
+	- `python3 main.py --all --exclude 'tag=<TAG_NAME>'` 
