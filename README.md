@@ -13,7 +13,7 @@ The goal of this project is to download vulnerability reports from Tenable IO wi
 
 ## Installation
 
-- ![Generate API keys](https://docs.tenable.com/vulnerability-management/Content/Settings/my-account/GenerateAPIKey.htm) from Tenable IO and add them in `src/.env` file. 
+- [Generate API keys](https://docs.tenable.com/vulnerability-management/Content/Settings/my-account/GenerateAPIKey.htm) from Tenable IO and add them in `src/.env` file. 
 - Clone the repository: `git clone https://github.com/Mrd0zz/tenable-report-downloader.git`
 - Install required python3 modules: `pip3 install -r requirements.txt`
 
