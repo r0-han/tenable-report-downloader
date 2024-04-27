@@ -14,12 +14,8 @@ The intent behind this project is to download Tenable IO Vulnerability reports w
 ## Installation
 
 - Generate API keys from Tenable IO and add them in `src/.env` file.
-- It is recommended to download this in a virtual env.
-	```bash
-		python3 -m venv tenable-report-downloader
-		source tenable-report-downloader/bin/activate
-		pip3 install -r requirements.txt
-	```
+- Clone the repository: `git clone https://github.com/Mrd0zz/tenable-report-downloader.git`
+- Install required python3 modules: `pip3 install -r requirements.txt`
 
 ## Usage
 ![Help menu](image/help.png)
