@@ -1,0 +1,7 @@
+# ignore test file
+test.py
+
+# ignore vals_req folder
+vals_req/
+__pycache__
+./src/__pycache__
