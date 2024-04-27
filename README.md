@@ -15,11 +15,11 @@ The intent behind this project is to download Tenable IO Vulnerability reports w
 
 - Generate API keys from Tenable IO and add them in `src/.env` file.
 - It is recommended to download this in a virtual env.
-		```
+	```
 		python3 -m venv tenable-report-downloader
 		source tenable-report-downloader/bin/activate
 		pip3 install -r requirements.txt
-		```
+	```
 
 ## Usage
 ![Help menu](image/help.png)
