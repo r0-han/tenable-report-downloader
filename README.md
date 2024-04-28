@@ -18,7 +18,7 @@ The goal of this project is to download vulnerability reports from Tenable IO wi
 - Install required python3 modules: `pip3 install -r requirements.txt`
 
 ## Usage
-![Help menu](image/help.png)
+![Help menu](./help.png)
 
 - List tags and corresponding tag values
 	- `python3 main.py --list`
