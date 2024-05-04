@@ -15,7 +15,7 @@ def ret_tenableio_obj():
             print("TIO_SECRET_KEY environment variable not incorrect")
             sys.exit(1)
             
-        api_check_req = requests.get(f'https://cloud.tenable.com/scans', headers={"X-ApiKeys": "accessKey={TIO_ACCESS_KEY};secretKey={TIO_SECRET_KEY}"})
+        api_check_req = requests.get('https://cloud.tenable.com/scans', headers={"X-ApiKeys": f"accessKey={TIO_ACCESS_KEY};secretKey={TIO_SECRET_KEY}"})
         if api_check_req.status_code == 401:
             prError("Wrong API key provided")
             sys.exit(1)
