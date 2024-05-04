@@ -10,12 +10,13 @@ The goal of this project is to download vulnerability reports from Tenable IO wi
 - To add/remove any other header you can edit the `src/get_vulns.py` file accordingly. 
 - Only active/open vulnerabilities are captured in the report. 
 - Vulnerabilities that have recasted/accepted state are not captured in the report.
+- If you're using it for organizational purposes tenable recommends to use custom *User-Agent* Header in order to identify your integrations and help in troubleshooting. More on this can be read [here](https://developer.tenable.com/docs/user-agent-header)
 
 ## Installation
 
 - [Generate API keys](https://docs.tenable.com/vulnerability-management/Content/Settings/my-account/GenerateAPIKey.htm) from Tenable IO and add them in `src/.env` file. 
 - Clone the repository: `git clone https://github.com/Mrd0zz/tenable-report-downloader.git`
-- Install required python3 modules: `pip3 install -r requirements.txt`
+- Install required python3 modules: `cd tenable-report-downloader ; pip3 install -r requirements.txt`
 
 ## Usage
 ![Help menu](./help.png)
