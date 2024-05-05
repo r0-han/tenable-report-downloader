@@ -2,7 +2,7 @@
 
 ## Description
 
-The goal of this project is to download vulnerability reports from Tenable IO without having to manually export each one from the findings page.
+The aim of this project is to download vulnerability findings reports from Tenable IO without manually exporting from the findings page.
 - Currently only below headers are captured in the downloaded report:
 	- `asset details  = agent_uuid, hostname, ipv4, operating_system`
 	- `plugin details  = description, cve, id, name, solution, synopsis, see_also, exploit_available, has_patch`
