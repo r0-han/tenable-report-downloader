@@ -27,7 +27,7 @@ The aim of this project is to download vulnerability findings reports from Tenab
 - Simple report download for any tag:value
 	- `python3 main.py --tag <TAG_NAME> --value <TAG_VALUE> --sev critical` 
 
-- Export report in slxs format
+- Export report in xlsx format
 	- `python3 main.py --tag <TAG_NAME> --value <TAG_VALUE> --sev critical --export xlsx`
 
 - Specify download directory for the reports
@@ -36,6 +36,6 @@ The aim of this project is to download vulnerability findings reports from Tenab
 - Download report for all tag:value pairs 
 	- `python3 main.py --all`
 
-- Exclude any tag:value or a single tag  
+- Exclude any tag:value or a single tag 
 	- `python3 main.py --all --exclude 'tag=<TAG_NAME>, value=<TAG_VALUE>'`
 	- `python3 main.py --all --exclude 'tag=<TAG_NAME>'` 
